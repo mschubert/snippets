@@ -1,0 +1,9 @@
+Node2	interact	Node4
+Node8	interact	Node9
+Node17	interact	Node2
+Node17	interact	Node8
+Node17	interact	Node12
+Node9	interact	Node12
+Node4	interact	Node16
+Node4	interact	Node6
+Node3	interact	Node6
