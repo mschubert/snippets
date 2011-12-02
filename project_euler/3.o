@@ -1,0 +1,14 @@
+%test = uint64(317584931803);
+test = 8;
+
+for i=2:test,
+	if (mod(test, i) == 0)
+		test /= i
+		if (test == 1)
+			i
+			break;
+		end
+		printf(' ');
+		i--;
+	end
+end

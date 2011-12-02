@@ -1,0 +1,14 @@
+tic
+limit = uint32(1e6);
+numbers = [1:1:limit];
+
+for i=uint32(2:limit),
+	if (numbers(1,i) ~= 0)
+		for j=uint32(2*i:i:limit),
+			numbers(1,j)=0;
+		end
+	end
+end
+
+printf("%u", sum(numbers)-1);
+toc
